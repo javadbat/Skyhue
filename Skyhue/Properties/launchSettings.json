@@ -2,6 +2,10 @@
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost:4000",
+      "sslPort": 0
+    },
     "iisExpress": {
       "applicationUrl": "http://localhost:52967/",
       "sslPort": 0
@@ -16,12 +20,12 @@
       }
     },
     "Skyhue": {
-      "commandName": "Project",
+      "commandName": "IIS",
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:52968/"
+      "applicationUrl": "http://localhost:4000/"
     }
   }
 }
