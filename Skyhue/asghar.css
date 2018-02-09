@@ -2,6 +2,10 @@
     background-color:red;
     color:#fff;
     background-color:blue;
-    font-size: 18px;
+    font-size: 24px;
+
+    &.ss{
+        color:red;
+    }
 }
 /*test comment*/
